@@ -19,22 +19,22 @@ The focus of this lab is to build a way for a user to go to a homepage,
 follow a link to a form where they can enter a puppy's information, and, upon
 submission, view the puppy's information.
 
-1. Build out a puppy class in `models/puppy.rb`. Puppies should have name,
+<!-- 1. Build out a puppy class in `models/puppy.rb`. Puppies should have name,
 breed, and age attributes. You will need to be able to pass these three
-attributes to initialization, as well as readers and writers for the attributes.
+attributes to initialization, as well as readers and writers for the attributes. -->
 
-2. In `app.rb` build out a GET request to load a homepage. The homepage
-should go to the main route `/`. 
+<!-- 2. In `app.rb` build out a GET request to load a homepage. The homepage
+should go to the main route `/`.  -->
 
-3. The home page will also need a new view `index.erb`. This page should
-welcome you to the Puppy Adoption Site. Add this view to the controller action. 
+<!-- 3. The home page will also need a new view `index.erb`. This page should
+welcome you to the Puppy Adoption Site. Add this view to the controller action.  -->
 
 4. Now, we need to create a form for a user to list a new puppy that is
 available for adoption. You can create this form in `views/create_puppy.erb`.
 Remember, you'll need to set up another controller action for a user to be
 able to view this form in the browser. Another reminder: the "submit" button
-of a form is an `<input>` element with a `type` of `"submit"`, *not* a 
-`<button>` element. 
+of a form is an `<input>` element with a `type` of `"submit"`, *not* a
+`<button>` element.
 
 5. Now we need to make sure the form is being submitted properly. You'll need
 to have a third controller action that takes the input from the user and
